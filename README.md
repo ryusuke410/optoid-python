@@ -41,7 +41,7 @@ python setup.py bdist_wheel
 
 ```
 twine upload --repository pypitest dist/*
-python  -m pip install --index-url https://test.pypi.org/simple/ optoid
+python -m pip install --index-url https://test.pypi.org/simple/ optoid
 ```
 
 ```
